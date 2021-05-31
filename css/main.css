@@ -1003,6 +1003,12 @@ header .form i {
     height: 1px;
 }
 
+@media (max-width: 767px){
+     .pricing .plans .plan ul li:not(:last-child):after {
+          left:90px  
+     }
+}
+
 .pricing .plans .plan .foot {
     /* text-align: center; */
     padding: 45px 0;
